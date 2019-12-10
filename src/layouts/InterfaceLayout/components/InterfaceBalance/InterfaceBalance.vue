@@ -106,7 +106,6 @@ export default {
     }
   },
   mounted() {
-    console.log(this.network);
     this.$root.$on('refresh_main_balance', () => {
       this.getBalance();
     });
