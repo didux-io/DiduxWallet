@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="bottom-image-container">
-        <a href="https://quake.smilo.io/" target="_blank">
+        <a href="https://quake.didux.io/" target="_blank">
           <img class="icon" src="~@/assets/images/etc/mewconnectad.png" />
         </a>
       </div>
@@ -101,7 +101,7 @@ import store from 'store';
 import { mapGetters } from 'vuex';
 import InterfaceTokensModal from '../InterfaceTokensModal';
 import sortByBalance from '@/helpers/sortByBalance.js';
-import utils from '@smilo-platform/web3-utils';
+import utils from '@didux-io/web3-utils';
 
 export default {
   components: {

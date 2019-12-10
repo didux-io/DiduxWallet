@@ -1,8 +1,8 @@
-import { XSMT } from '../types';
+import { XSD } from '../types';
 export default {
-  type: XSMT,
+  type: XSD,
   service: 'Testnet Server 1',
-  url: 'https://testnet-wallet.smilo.network/api',
+  url: 'https://api.didux.network/',
   port: 443,
   auth: false,
   username: '',

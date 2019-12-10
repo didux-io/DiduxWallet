@@ -34,7 +34,7 @@ describe('AccessMyWalletContainer.vue', () => {
     Vue.config.errorHandler = () => {};
     Vue.config.warnHandler = () => {};
 
-    const network = nodeList['XSMT'][0];
+    const network = nodeList['XSD'][0];
 
     const getters = {
       customPaths: () => {},

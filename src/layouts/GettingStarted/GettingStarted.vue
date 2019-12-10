@@ -85,7 +85,7 @@ import WhatIfILoseMyKeysOrPassword from './components/WhatIfILoseMyKeysOrPasswor
 import SomeHelpfulTips from './components/SomeHelpfulTips';
 import WhatIsUpside from './components/WhatIsUpside';
 import Congratulations from './components/Congratulations';
-import utils from '@smilo-platform/web3-utils';
+import utils from '@didux-io/web3-utils';
 
 export default {
   components: {

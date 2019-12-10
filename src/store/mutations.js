@@ -40,8 +40,8 @@ const SET_ACCOUNT_BALANCE = function(state, balance) {
   state.account.balance = balance;
 };
 
-const SET_ACCOUNT_SMILOPAY_BALANCE = function(state, balance) {
-  state.account.smilopay_balance = balance;
+const SET_ACCOUNT_DIDUX_DIDDY_BALANCE = function(state, balance) {
+  state.account.didux_diddy_balance = balance;
 };
 
 const SET_ENS = function(state, ens) {
@@ -89,7 +89,7 @@ export default {
   DECRYPT_WALLET,
   INIT_STATES,
   SET_ACCOUNT_BALANCE,
-  SET_ACCOUNT_SMILOPAY_BALANCE,
+  SET_ACCOUNT_DIDUX_DIDDY_BALANCE,
   SET_LAST_PATH,
   SET_GAS_PRICE,
   SET_ENS,

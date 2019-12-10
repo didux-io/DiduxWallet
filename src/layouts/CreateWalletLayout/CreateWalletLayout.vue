@@ -9,7 +9,7 @@
         <div v-show="!byJson && !byMnemonic" class="nav-tab-user-input-box">
           <b-tabs class="x100">
             <!-- <div v-if="showProgressBar" class="progress-bar" /> -->
-            <!-- Below lines will be enabled again at a later time when the Smilo Wallet app is available -->
+            <!-- Below lines will be enabled again at a later time when the Didux Wallet app is available -->
             <!-- <b-tab
               class="mew-connect-block"
               title="MEWconnect"

@@ -43,7 +43,7 @@
           <div class="donate-us">
             <div class="content-title">
               <h3 class="lite">
-                {{ $t('footer.love') }}
+                {{ $t('footer.love') }}&nbsp;
                 <img src="~@/assets/images/icons/heart.svg" />
                 {{ $t('footer.donate') }}
               </h3>
@@ -138,7 +138,7 @@ export default {
       lowerLinks: [
         {
           title: this.$t('footer.feedback'),
-          href: 'mailto:info@smilo.io'
+          href: 'mailto:info@didux.io'
         },
         {
           title: this.$t('footer.privacy'),
@@ -155,20 +155,20 @@ export default {
           title: this.$t('footer.discover'),
           contents: [
             {
-              text: this.$t('footer.smilo'),
-              href: 'https://smilo.io/'
+              text: this.$t('footer.didux'),
+              href: 'https://didux.io/'
             },
             {
               text: this.$t('footer.explorer'),
-              href: 'https://testnet-explorer.smilo.network/home'
+              href: 'https://explorer.didux.network/home'
             },
             {
               text: this.$t('footer.wiki'),
-              href: 'https://github.com/Smilo-platform/Wiki/wiki'
+              href: 'https://github.com/didux-io/Wiki/wiki'
             },
             {
               text: this.$t('footer.quake'),
-              href: 'https://quake.smilo.io/'
+              href: 'https://quake.didux.io/'
             }
           ]
         },
@@ -186,7 +186,7 @@ export default {
             },
             {
               text: this.$t('common.customerSupport'),
-              href: 'mailto:info@smilo.io'
+              href: 'mailto:info@didux.io'
             }
           ]
         },
@@ -199,28 +199,20 @@ export default {
       ],
       links: [
         {
-          to: 'https://www.facebook.com/SmiloPlatform',
+          to: 'https://www.facebook.com/DiduxVaults',
           class: 'fa-facebook'
         },
         {
-          to: 'https://twitter.com/SmiloPlatform',
+          to: 'https://twitter.com/DiduxVaults',
           class: 'fa-twitter'
         },
         {
-          to: 'https://www.linkedin.com/company/smilo-platform-bv',
+          to: 'https://www.linkedin.com/company/didux-io',
           class: 'fa-linkedin'
         },
         {
-          to: 'https://github.com/Smilo-platform',
+          to: 'https://github.com/didux-io',
           class: 'fa-github'
-        },
-        {
-          to: 'https://smiloplatform.reddit.com/',
-          class: 'fa-reddit-alien'
-        },
-        {
-          to: 'https://medium.com/smilo-platform',
-          class: 'fa-medium'
         }
       ]
     };

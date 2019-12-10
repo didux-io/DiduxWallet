@@ -28,8 +28,8 @@ $light-grey-12: #999;
 $light-grey-13: #eee;
 $light-grey-14: #cecece;
 
-$light-blue-1: #5a78f0;
-$light-blue-2: #96a8b6;
+$light-blue-1: #f4623a;
+$light-blue-2: #212529;
 $light-blue-3: #476081;
 $light-blue-4: #25b0e8;
 $light-blue-5: #00b3db;
@@ -52,7 +52,7 @@ $light-green-4: #f1fafa;
 $light-green-5: #00bfa4;
 $light-green-6: #c9f2ed;
 
-$mew-green: #05c0a5;
+$mew-green: #f4bf3a;
 
 $white: #fff;
 $black: #000;
@@ -85,8 +85,8 @@ $dark-grey-10: #8a8a8a;
 $dark-grey-11: #999;
 $dark-grey-12: rgba(0, 0, 0, 0.7294117647058823);
 
-$dark-blue-1: #506175;
-$dark-blue-2: #0b2840;
+$dark-blue-1: white;
+$dark-blue-2: #f4623a;
 $dark-blue-4: #677890;
 $dark-blue-5: #434f60;
 $dark-blue-6: #003945;
@@ -212,7 +212,7 @@ $z-bootstrap-modal: 601;
 // *********************************************************************
 // Text styles
 // *********************************************************************
-$text-base-color: $dark-blue-1;
+$text-base-color: #212529;
 $text-white: $white;
 $text-black: $black;
 $text-color-1: $white; // White text color
@@ -236,7 +236,7 @@ $text-side-menu-inactive-color: $light-grey-7;
 $text-good-button-not-good: $light-grey-8;
 
 $link-text-color-1: $dark-blue-1;
-$link-text-color-2: $mew-green;
+$link-text-color-2: #212529;
 $link-text-color-3: $dark-grey-6;
 
 // *********************************************************************

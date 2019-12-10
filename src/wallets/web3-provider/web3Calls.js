@@ -1,6 +1,6 @@
-import Method from '@smilo-platform/web3-core-method';
-import utils from '@smilo-platform/web3-utils';
-import { formatters } from '@smilo-platform/web3-core-helpers';
+import Method from '@didux-io/web3-core-method';
+import utils from '@didux-io/web3-utils';
+import { formatters } from '@didux-io/web3-core-helpers';
 class Web3Calls {
   constructor(requestManager) {
     const ethereumCalls = [

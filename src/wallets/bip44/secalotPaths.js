@@ -1,5 +1,5 @@
 import {
-  smilo,
+  didux,
   ethereum,
   ethereumClassic,
   ropsten,
@@ -23,7 +23,7 @@ import {
   iolite
 } from './paths';
 export default [
-  smilo,
+  didux,
   ethereum,
   ethereumClassic,
   ropsten,

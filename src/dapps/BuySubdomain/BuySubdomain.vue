@@ -31,7 +31,7 @@
               >
               <div class="buy-button-container">
                 <span class="amt"
-                  >{{ web3.utils.fromWei(item.price, 'ether') }} XSM</span
+                  >{{ web3.utils.fromWei(item.price, 'ether') }} XD</span
                 >
                 <button @click="buyDomain(item)">
                   <span v-if="item.active"> {{ $t('dapps.buy') }} </span>
@@ -54,7 +54,7 @@ import SubdomainAbi from '@/helpers/subdomainAbi.js';
 import domains from './domains.json';
 import normalise from '@/helpers/normalise';
 import BigNumber from 'bignumber.js';
-import web3 from '@smilo-platform/web3';
+import web3 from '@didux-io/web3';
 import { mapGetters } from 'vuex';
 import StandardButton from '@/components/Buttons/StandardButton';
 

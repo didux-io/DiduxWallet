@@ -1,6 +1,6 @@
-import Web3HttpProvider from '@smilo-platform/web3-providers-http';
-import { errors } from '@smilo-platform/web3-core-helpers';
-import { Manager as Web3RequestManager } from '@smilo-platform/web3-core-requestmanager';
+import Web3HttpProvider from '@didux-io/web3-providers-http';
+import { errors } from '@didux-io/web3-core-helpers';
+import { Manager as Web3RequestManager } from '@didux-io/web3-core-requestmanager';
 import MiddleWare from '../middleware';
 import {
   ethSendTransaction,

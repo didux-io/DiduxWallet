@@ -71,13 +71,13 @@ if (process.env.NODE_ENV === 'production') {
       failOnUnused: true,
       globOptions: {
         ignore: [
-          // Smilo temporary
+          // Didux temporary
           'src/assets/images/etc/phones.png',
           'src/assets/images/home/icon-mew-connect.svg',
           'src/assets/images/home/icon-swap.svg',
           'src/assets/images/icons/button-mewconnect.svg',
           'src/assets/images/icons/mewconnect-disable.svg',
-          'src/assets/images/icons/xsm.svg',
+          'src/assets/images/icons/xd.svg',
           'src/assets/images/networks/eth.svg',
             // Are we using these?
           'src/components/DropDownAddressSelector/#####DropDownAddressSelector.vue',
@@ -154,7 +154,7 @@ if (process.env.NODE_ENV === 'production') {
   );
 }
 const pwa = {
-  name: 'SmiloWallet',
+  name: 'DiduxWallet',
   workboxOptions: {
     importWorkboxFrom: 'local',
     skipWaiting: true,

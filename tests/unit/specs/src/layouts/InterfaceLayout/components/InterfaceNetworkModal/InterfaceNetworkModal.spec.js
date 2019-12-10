@@ -20,7 +20,7 @@ describe('InterfaceNetworkModal.vue', () => {
     Vue.config.errorHandler = () => {};
     Vue.config.warnHandler = () => {};
 
-    const network = nodeList['XSMT'][0];
+    const network = nodeList['XSD'][0];
     // const hostUrl = url.parse(network.url);
 
     // const newWeb3 = new Web3(

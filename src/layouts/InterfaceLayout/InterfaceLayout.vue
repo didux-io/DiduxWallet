@@ -59,8 +59,8 @@
             <interface-balance
               :balance="balance"
               :get-balance="getBalance"
-              :smilopay-balance="smilopayBalance"
-              :get-smilo-pay-balance="getSmiloPayBalance"
+              :didux-diddy-balance="diduxDiddyBalance"
+              :get-didux-diddy-balance="getDiduxDiddyBalance"
             />
           </div>
           <div class="mobile-hide">
@@ -90,7 +90,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import ENS from '@smilo-platform/ethereum-ens';
+import ENS from '@didux-io/ethereum-ens';
 import WalletPasswordModal from '@/components/WalletPasswordModal';
 import EnterPinNumberModal from '@/components/EnterPinNumberModal';
 import NetworkAndAddressModal from '@/layouts/AccessWalletLayout/components/NetworkAndAddressModal';
@@ -142,7 +142,7 @@ export default {
   data() {
     return {
       balance: '0',
-      smilopayBalance: '0',
+      diduxDiddyBalance: '0',
       blockNumber: 0,
       tokens: [],
       srcTwentyTokens: [],
@@ -430,16 +430,16 @@ export default {
           console.error(err);
         });
     },
-    getSmiloPayBalance() {
+    getDiduxDiddyBalance() {
       const web3 = this.web3;
       web3.eth
         .getSmiloPay(this.address.toLowerCase())
         .then(res => {
-          this.smilopayBalance = web3.utils.fromWei(
+          this.diduxDiddyBalance = web3.utils.fromWei(
             new BigNumber(res).toFixed(),
             'ether'
           );
-          this.$store.dispatch('setSmiloPayBalance', res);
+          this.$store.dispatch('setDiduxDiddyBalance', res);
         })
         .catch(err => {
           // eslint-disable-next-line no-console
@@ -510,7 +510,7 @@ export default {
           }
           this.getBlock();
           this.getBalance();
-          this.getSmiloPayBalance();
+          this.getDiduxDiddyBalance();
           this.pollBlock = setInterval(this.getBlock, 14000);
           this.setTokens();
           this.setENS();

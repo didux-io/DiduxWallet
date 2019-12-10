@@ -5,7 +5,7 @@ import ConfirmModal from '@/containers/ConfirmationContainer/components/ConfirmM
 import VueQrcode from '@xkeshi/vue-qrcode';
 import nodeList from '@/networks';
 import url from 'url';
-import Web3 from '@smilo-platform/web3';
+import Web3 from '@didux-io/web3';
 import { Tooling } from '@@/helpers';
 
 const AddressBlockStub = {
@@ -32,7 +32,7 @@ describe('ConfirmModal.vue', () => {
     i18n = baseSetup.i18n;
     store = baseSetup.store;
     Vue.config.errorHandler = () => {};
-    const network = nodeList['XSMT'][0];
+    const network = nodeList['XSD'][0];
     const hostUrl = url.parse(network.url);
     const newWeb3 = new Web3(
       `${hostUrl.protocol}//${hostUrl.hostname}:${network.port}${
@@ -105,7 +105,7 @@ describe('ConfirmModal.vue', () => {
         .querySelectorAll('.grid-block')[3]
         .querySelectorAll('p')[1]
         .textContent.trim()
-    ).toEqual(wrapper.props().fee + ' XSMT');
+    ).toEqual(wrapper.props().fee + ' XSD');
   });
 
   it('should render correct nonce props', () => {

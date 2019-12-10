@@ -16,7 +16,7 @@
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.smilowallet.io"
+              href="https://www.wallet.didux.io"
             >
               {{ $t('gettingStarted.congratulationsLink') }}
             </a>

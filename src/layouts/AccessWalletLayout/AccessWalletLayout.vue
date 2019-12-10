@@ -37,7 +37,7 @@ export default {
   methods: {
     async getRates() {
       this.tokens = [];
-      const tokenNames = ['XSM', 'BTC', 'ETH', 'ETC', 'LTC', 'NEO'];
+      const tokenNames = ['XD', 'BTC', 'ETH', 'ETC', 'LTC', 'NEO'];
       const rates = await fetch(
         'https://cryptorates.mewapi.io/ticker?filter=BTC,ETH,ETC,LTC,NEO'
       )

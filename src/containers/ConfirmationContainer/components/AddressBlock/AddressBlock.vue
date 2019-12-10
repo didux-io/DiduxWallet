@@ -24,7 +24,7 @@
 
 <script>
 import { isAddress, toChecksumAddress } from '@/helpers/addressUtils';
-import web3 from '@smilo-platform/web3';
+import web3 from '@didux-io/web3';
 import BigNumber from 'bignumber.js';
 import { mapGetters } from 'vuex';
 export default {

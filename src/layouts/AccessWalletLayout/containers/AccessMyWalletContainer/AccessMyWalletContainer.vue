@@ -154,7 +154,7 @@ export default {
         // },
         {
           func: this.metamaskModalOpen,
-          title: 'Smilo Wallet Extension',
+          title: 'Didux Wallet Extension',
           desc: this.$t('accessWallet.metaMaskDesc'),
           recommend: '',
           tooltip: this.$t('common.toolTip3'),

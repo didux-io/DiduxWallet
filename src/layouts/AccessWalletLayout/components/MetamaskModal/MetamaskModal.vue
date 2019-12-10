@@ -68,7 +68,7 @@
         <p v-show="!refreshPage && isChrome">Coming soon...</p>
         <a
           v-show="!refreshPage && !isChrome"
-          href="https://addons.mozilla.org/en-US/firefox/addon/smilo-browser-extension/"
+          href="https://addons.mozilla.org/en-US/firefox/addon/didux-browser-extension/"
           target="_blank"
           rel="noopener noreferrer"
           class="mid-round-button-green-filled close-button"
@@ -90,7 +90,7 @@
 <script>
 import CustomerSupport from '@/components/CustomerSupport';
 import { Web3Wallet } from '@/wallets/software';
-import Web3 from '@smilo-platform/web3';
+import Web3 from '@didux-io/web3';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -131,16 +131,16 @@ export default {
     },
     async getWeb3Wallet() {
       if (this.checkWeb3() !== true) return;
-      if (window.smilo) {
-        window.web3 = new Web3(window.smilo);
+      if (window.diduxWallet) {
+        window.web3 = new Web3(window.diduxWallet);
         try {
-          await window.smilo.enable();
+          await window.diduxWallet.enable();
         } catch (e) {
           this.web3WalletExists = false;
         }
         this.signIn(window.web3);
-      } else if (window.smiloWeb3) {
-        this.signIn(window.smiloWeb3);
+      } else if (window.diduxWeb3) {
+        this.signIn(window.diduxWeb3);
       }
     },
     signIn(web3) {
@@ -160,9 +160,9 @@ export default {
         });
     },
     checkWeb3() {
-      if (window.smilo) {
+      if (window.diduxWallet) {
         return true;
-      } else if (window.smiloWeb3) {
+      } else if (window.diduxWeb3) {
         return true;
       }
       return false;

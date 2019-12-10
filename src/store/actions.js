@@ -1,9 +1,9 @@
 import url from 'url';
-import web3 from '@smilo-platform/web3';
+import web3 from '@didux-io/web3';
 import MEWProvider from '@/wallets/web3-provider';
 import { MEW_CONNECT } from '@/wallets/bip44/walletTypes';
 import * as unit from 'ethjs-unit';
-import { formatters } from '@smilo-platform/web3-core-helpers';
+import { formatters } from '@didux-io/web3-core-helpers';
 
 import {
   txIndexes,
@@ -85,8 +85,8 @@ const setAccountBalance = function({ commit }, balance) {
   commit('SET_ACCOUNT_BALANCE', balance);
 };
 
-const setSmiloPayBalance = function({ commit }, balance) {
-  commit('SET_ACCOUNT_SMILOPAY_BALANCE', balance);
+const setDiduxDiddyBalance = function({ commit }, balance) {
+  commit('SET_ACCOUNT_DIDUX_DIDDY_BALANCE', balance);
 };
 
 const setGasPrice = function({ commit }, gasPrice) {
@@ -216,7 +216,7 @@ export default {
   createAndSignTx,
   decryptWallet,
   setAccountBalance,
-  setSmiloPayBalance,
+  setDiduxDiddyBalance,
   setGasPrice,
   setState,
   setENS,

@@ -1,6 +1,6 @@
 <template>
   <div class="support">
-    <a href="mailto:info@smilo.io" rel="noopener noreferrer">
+    <a href="mailto:info@didux.io" rel="noopener noreferrer">
       <div class="support-content">
         <div class="support-icon">
           <img src="~@/assets/images/icons/help-center.svg" />

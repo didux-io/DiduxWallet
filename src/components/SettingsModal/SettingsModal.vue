@@ -38,7 +38,7 @@
                     </label>
                   </div>
                   <p>
-                    {{ gasPriceInputs[key].eth }} XSM
+                    {{ gasPriceInputs[key].eth }} XD
                     <span v-if="ethPrice !== 0"
                       >($
                       {{ convert(gasPriceInputs[key].eth) | concatAddr }})</span
@@ -64,7 +64,7 @@
                     <p class="gwei">Gwei</p>
                   </div>
                   <p>
-                    {{ customGasEth }} XSM
+                    {{ customGasEth }} XD
                     <span v-if="ethPrice !== 0 && customGasEth !== 0"
                       >($ {{ convert(customGasEth) | concatAddr }})</span
                     >
@@ -136,7 +136,7 @@
 <script>
 import FullWidthDropdownMenu from '@/components/FullWidthDropdownMenu';
 import BigNumber from 'bignumber.js';
-import utils from '@smilo-platform/web3-utils';
+import utils from '@didux-io/web3-utils';
 import store from 'store';
 
 export default {

@@ -9,7 +9,7 @@ import SettingsModal from '@/components/SettingsModal';
 
 import nodeList from '@/networks';
 import url from 'url';
-import Web3 from '@smilo-platform/web3';
+import Web3 from '@didux-io/web3';
 import sinon from 'sinon';
 import { Tooling } from '@@/helpers';
 
@@ -53,7 +53,7 @@ describe('HeaderContainer.vue', () => {
       }
     };
 
-    const network = nodeList['XSMT'][0];
+    const network = nodeList['XSD'][0];
     const hostUrl = url.parse(network.url);
 
     getters = {

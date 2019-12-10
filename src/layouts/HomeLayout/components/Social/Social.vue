@@ -50,37 +50,22 @@ export default {
         */
         {
           img: facebook,
-          to: 'https://www.facebook.com/SmiloPlatform',
+          to: 'https://www.facebook.com/DiduxVaults',
           name: 'Facebook'
         },
         {
           img: twitter,
-          to: 'https://twitter.com/SmiloPlatform',
+          to: 'https://twitter.com/DiduxVaults',
           name: 'Twitter'
         },
         {
-          img: medium,
-          to: 'https://medium.com/smilo-platform',
-          name: 'Medium'
-        },
-        {
-          img: reddit,
-          to: 'https://smiloplatform.reddit.com',
-          name: 'reddit'
-        },
-        {
           img: linkedin,
-          to: 'https://www.linkedin.com/company/smilo-platform-bv',
+          to: 'https://www.linkedin.com/company/didux-io',
           name: 'linkedin'
         },
         {
-          img: telegram,
-          to: 'https://t.me/SmiloPlatform',
-          name: 'telegram'
-        },
-        {
           img: github,
-          to: 'https://github.com/Smilo-platform',
+          to: 'https://github.com/didux-io',
           name: 'github'
         }
       ]

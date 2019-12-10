@@ -15,13 +15,13 @@
             </div>
             <div
               v-show="
-                smilopayBalance !== undefined &&
-                  (network.type.name === 'XSM' || network.type.name === 'XSMT')
+                diduxDiddyBalance !== undefined &&
+                  (network.type.name === 'XD' || network.type.name === 'XSD')
               "
               class="balance-text"
             >
-              <p>{{ smilopayBalance }}</p>
-              <p>&nbsp; XSP</p>
+              <p>{{ diduxDiddyBalance }}</p>
+              <p>&nbsp; XSD</p>
             </div>
             <i v-show="balance === undefined" class="fa fa-spin fa-spinner" />
           </div>
@@ -77,7 +77,7 @@ export default {
       type: String,
       default: '0'
     },
-    smilopayBalance: {
+    diduxDiddyBalance: {
       type: String,
       default: '0'
     },
@@ -85,7 +85,7 @@ export default {
       type: Function,
       default: function() {}
     },
-    getSmiloPayBalance: {
+    getDiduxDiddyBalance: {
       type: Function,
       default: function() {}
     }
@@ -118,7 +118,7 @@ export default {
       this.fetchingBalance = true;
       setTimeout(() => {
         this.getBalance();
-        this.getSmiloPayBalance();
+        this.getDiduxDiddyBalance();
         this.fetchingBalance = false;
       }, 1000);
     }

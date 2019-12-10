@@ -1,6 +1,6 @@
 {
-  "name": "SmiloWallet",
-  "short_name": "Smilo",
+  "name": "DiduxWallet",
+  "short_name": "Didux",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -16,5 +16,5 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#0B2840"
+  "theme_color": "red"
 }

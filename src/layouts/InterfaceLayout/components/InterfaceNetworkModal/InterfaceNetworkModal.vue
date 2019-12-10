@@ -91,7 +91,7 @@
               class="custom-input-text-1"
               type="text"
               name="nodeName"
-              placeholder="Smilo Node Name"
+              placeholder="Didux Node Name"
               autocomplete="off"
             />
             <input
@@ -275,9 +275,9 @@ export default {
   data() {
     return {
       types: networkTypes,
-      selectedNetworkName: 'XSM',
+      selectedNetworkName: 'XD',
       port: 443,
-      networkName: 'XSM - Smilo',
+      networkName: 'XD - Didux',
       name: '',
       url: '',
       username: '',
@@ -313,7 +313,7 @@ export default {
       homePage: '',
       blockExplorerTX: '',
       blockExplorerAddr: '',
-      chainID: networkTypes['XSM'].chainID,
+      chainID: networkTypes['XD'].chainID,
       tokens: [],
       contracts: [],
       ensResolver: ''

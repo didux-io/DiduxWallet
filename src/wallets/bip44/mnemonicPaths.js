@@ -1,5 +1,5 @@
 import {
-  smilo,
+  didux,
   ethereum,
   ethereumClassic,
   ropsten,
@@ -25,7 +25,7 @@ import {
   rskTestnet
 } from './paths';
 export default [
-  smilo,
+  didux,
   ethereum,
   ethereumClassic,
   ropsten,

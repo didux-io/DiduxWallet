@@ -5,7 +5,7 @@ if (store.get('notifications') === undefined) store.set('notifications', {});
 const network =
   store.get('network') !== undefined
     ? store.get('network')
-    : nodeList['XSMT'][0];
+    : nodeList['XSD'][0];
 const notifications =
   store.get('notifications') !== undefined ? store.get('notifications') : {};
 const gasPrice =
@@ -18,7 +18,7 @@ store.set('network', network);
 const state = {
   account: {
     balance: 0,
-    smilopayBalance: 0
+    diduxDiddyBalance: 0
   },
   customPaths: customPaths,
   ens: ens,

@@ -91,11 +91,11 @@ const validateHexString = str => {
 
 const reorderNetworks = () => {
   const oldObject = Object.assign({}, nodeList);
-  delete oldObject['XSM'];
+  delete oldObject['XD'];
   return Object.assign(
     {},
     {
-      XSM: nodeList['XSMT'],
+      XD: nodeList['XSD'],
       ...oldObject
     }
   );

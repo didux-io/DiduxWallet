@@ -166,7 +166,7 @@ import * as unit from 'ethjs-unit';
 import { mapGetters } from 'vuex';
 import { isAddress } from '@/helpers/addressUtils';
 import { Misc } from '@/helpers';
-import utils from '@smilo-platform/web3-utils';
+import utils from '@didux-io/web3-utils';
 
 export default {
   components: {

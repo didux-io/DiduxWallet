@@ -1,8 +1,8 @@
-import { XSM } from '../types';
+import { XD } from '../types';
 export default {
-  type: XSM,
+  type: XD,
   service: 'Mainnet Server 1',
-  url: 'https://api.smilo.network/',
+  url: 'https://api.didux.network/',
   port: 443,
   auth: false,
   username: '',

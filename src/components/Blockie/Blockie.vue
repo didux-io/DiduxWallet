@@ -3,7 +3,7 @@
 </template>
 <script>
 // import { Blockies } from '@/helpers';
-import * as SmiloDenticon from '@smilo-platform/smiloicon';
+import * as DiduxDenticon from '@didux-io/diduxicon';
 export default {
   props: {
     address: {
@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     setBlockie() {
-      const data = SmiloDenticon(
+      const data = DiduxDenticon(
         this.diameter,
         this.jsNumberForAddress(this.address.toLowerCase())
       );

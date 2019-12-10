@@ -12,7 +12,7 @@
         </linearGradient>
         <linearGradient id="d" x1="77.936%" x2="41.649%" y1="88.909%" y2="24.069%">
             <stop offset="0%" stop-color="#24EDF2"/>
-            <stop offset="100%" stop-color="#0B2840" stop-opacity=".247"/>
+            <stop offset="100%" stop-color="#f4623a" stop-opacity=".247"/>
         </linearGradient>
         <linearGradient id="e" x1="52.087%" x2="52.087%" y1="121.342%" y2="11.059%">
             <stop offset="0%" stop-color="#268F92"/>

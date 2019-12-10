@@ -174,8 +174,8 @@ export default {
       subheader: 'Always look for this icon when sending to this wallet',
       mew: 'MyEtherWallet',
       paper: 'Paper Wallet',
-      link1: 'info@smilo.io',
-      link2: 'https://smilo.io',
+      link1: 'info@didux.io',
+      link2: 'https://didux.io',
       myAddress: 'MY ADDRESS',
       myPriv: 'MY PRIVATE KEY',
       content: {

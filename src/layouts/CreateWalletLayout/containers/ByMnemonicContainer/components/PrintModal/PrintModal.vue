@@ -48,11 +48,11 @@
           </div>
           <div class="footer">
             <div>
-              <img src="~@/assets/images/icons/support.svg" /> info@smilo.io
+              <img src="~@/assets/images/icons/support.svg" /> info@didux.io
             </div>
             <div>
               <img src="~@/assets/images/icons/web-solution.svg" />
-              https://smilo.io
+              https://didux.io
             </div>
           </div>
         </div>

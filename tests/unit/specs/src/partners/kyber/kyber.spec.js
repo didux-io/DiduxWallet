@@ -1,6 +1,6 @@
 import Kyber from '@/partners/kyber/kyber.js';
-import Web3 from '@smilo-platform/web3';
-import ENS from '@smilo-platform/ethereum-ens';
+import Web3 from '@didux-io/web3';
+import ENS from '@didux-io/ethereum-ens';
 
 const nodeUrl = 'https://api.myetherwallet.com/eth';
 const network = 'ETH';

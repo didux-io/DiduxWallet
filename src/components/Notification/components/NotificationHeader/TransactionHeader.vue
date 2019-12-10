@@ -71,7 +71,7 @@ export default {
       );
       if (this.notice.body.refreshBalance) {
         const network = this.notice.body.token.tokenSymbol;
-        if (network === 'XSMT' || network === 'XSM') {
+        if (network === 'XD' || network === 'XSD') {
           this.$root.$emit('refresh_main_balance');
         } else {
           this.$root.$emit('refresh_src20_balance');

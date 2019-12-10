@@ -50,8 +50,8 @@ export default {
       extensions: [
         {
           image: metamask,
-          title: 'SmiloWallet Chrome',
-          description: 'Use SmiloWallet without internet',
+          title: 'DiduxWallet Chrome',
+          description: 'Use DiduxWallet without internet',
           linkName: 'Download',
           linkURL: 'https://google.com'
         }
