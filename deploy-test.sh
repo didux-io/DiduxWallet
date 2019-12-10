@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$(aws ecr get-login --no-include-email --region eu-west-1)
+$(aws ecr get-login --no-include-email --region eu-central-1)
 
 npm run build:web
 
