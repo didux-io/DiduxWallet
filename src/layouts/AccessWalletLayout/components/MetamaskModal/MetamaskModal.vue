@@ -8,7 +8,11 @@
   >
     <div v-if="web3WalletExists">
       <div class="modal-multi-icons">
-        <img class="icon" src="~@/assets/images/icons/button-smilowallet.svg" />
+        <img
+          class="icon"
+          src="~@/assets/images/icons/button-diduxwallet.svg"
+          style="width: 115px;"
+        />
         <img class="icon" src="~@/assets/images/icons/clip.svg" />
         <img class="icon logo-small" src="~@/assets/images/logo-small.png" />
       </div>
@@ -51,7 +55,11 @@
     </div>
     <div v-else>
       <div class="modal-multi-icons">
-        <img class="icon" src="~@/assets/images/icons/button-smilowallet.svg" />
+        <img
+          class="icon"
+          src="~@/assets/images/icons/button-diduxwallet.svg"
+          style="width: 115px;"
+        />
       </div>
       <div class="d-block content-container text-center">
         <h4>{{ $t('accessWallet.installMetaMaskModalDesc') }}</h4>

@@ -3,7 +3,9 @@
     :class="[!disabled ? 'disabled' : '', 'button-block', classname]"
     @click="func"
   >
-    <div class="button-image"><img :src="img" class="icon" /></div>
+    <div class="button-image">
+      <img :src="img" class="icon" style="width: 100px;" />
+    </div>
     <h3>{{ title }}</h3>
     <p class="desc">{{ desc }}</p>
     <p :v-if="recommend !== ''" class="small-note">{{ recommend }}</p>
