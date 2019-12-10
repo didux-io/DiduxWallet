@@ -3,9 +3,7 @@ import store from 'store';
 if (store.get('notifications') === undefined) store.set('notifications', {});
 
 const network =
-  store.get('network') !== undefined
-    ? store.get('network')
-    : nodeList['XSD'][0];
+  store.get('network') !== undefined ? store.get('network') : nodeList['XD'][0];
 const notifications =
   store.get('notifications') !== undefined ? store.get('notifications') : {};
 const gasPrice =
