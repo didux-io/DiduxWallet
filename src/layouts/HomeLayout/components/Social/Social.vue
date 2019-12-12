@@ -29,12 +29,12 @@
 
 <script>
 import github from '@/assets/images/icons/github.png';
-import reddit from '@/assets/images/icons/reddit.svg';
-import medium from '@/assets/images/icons/medium.png';
+// import reddit from '@/assets/images/icons/reddit.svg';
+// import medium from '@/assets/images/icons/medium.png';
 import twitter from '@/assets/images/icons/twitter.jpg';
 import facebook from '@/assets/images/icons/facebook.png';
 //import slack from '@/assets/images/icons/slack.png';
-import telegram from '@/assets/images/icons/telegram.png';
+// import telegram from '@/assets/images/icons/telegram.png';
 import linkedin from '@/assets/images/icons/linkedin.png';
 
 export default {

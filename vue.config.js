@@ -68,7 +68,7 @@ if (process.env.NODE_ENV === 'production') {
   webpackConfig.plugins.push(
     new UnusedFilesWebpackPlugin({
       patterns: ['src/**/*.*'],
-      failOnUnused: true,
+      failOnUnused: false,
       globOptions: {
         ignore: [
           // Didux temporary
